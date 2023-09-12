@@ -97,3 +97,8 @@ github
 new repository creat korte hobe .kaj korte hobe locale tarpor setia github e joma kore rakte hobe.
 Er jonno github er repositoryta clone korte hobe link copy kore
 Git clone link
+
+sob kicu stage and commit korar por 
+ git push -u origin main
+use korte hobe push korar jonno ei command die enter caple hoito notun ekta window asbe github e sign korar jonno noito terminal ei user name and password deuar option asbe sockicu deuar por 
+github e gie fresh dile deka jabe amader repository te file ta cole asce....its amazing
