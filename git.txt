@@ -1,0 +1,99 @@
+Learn git and github
+Git কী ; গিট আমাদের ফাইলের ভিতর তাকিয়ে থাকে ।দেখে ফাইলে কোন পরিবর্তন আসছে কিনা।পরিবর্তন গুলো রেকর্ড করে।সেটা যেকোন ফাইল হতে পারে।শুধু যে কোডীং হবে এমন না।
+
+গিট এর সবথেকে ভালো ফিচার গিট এর মাধ্যমে আমরা ভার্সন কন্ট্রল করতে পারি।ধরা যাক একটা ফাইল কাজ করলাম কিছুদিন পর সেটা কিছু পরিবর্তন করলাম।আমরা যদি ওভার রাইট করি তাহলে পরে আর আগের কাজ বা ফাইল পাবো না।কিন্তু গিট এর মাধ্যমে আমরা প্রতিতটা ধাপ সংরক্ষন করতে পারি।চাইলে যে কোন ভার্সন প্রয়োজন মত ব্যাবহার করতে পারি।এ কারনে গিট কে ভার্সন কন্ট্রল সিস্টেম বলা হয়।একজন প্রোগ্রামের সারাজীবন গিট লাগে।
+লিনাক্স যে আবিস্কার করেছেন গিট ও তিনি আবিস্কার করেছেন।
+গিট হাব ;আমরা যারা ভিবিন্ন ভার্সন নিয়ে কাজ করি একই এপ এ সেগুলো কানেক্ট করার জন্য একটা সেন্ট্রাল স্পেস হচ্ছে গিট হাব
+
+গিট কিভাবে কাজ করে।
+১।লোকাল ;যেখানে আমরা কাজ করি।
+২।রিমোট ;ক্লাউডে থাকবে ।মুলত গিট হাব এটিই
+
+লোকাল এ আমরা যে ফাইলে কাজ করি তাকে ওয়র্কিং ডিরেকটরি বলে।কাজ কাম শেষ করার পর আমরা সেটিকে স্টেজে তুলে দিবো।স্টেজে তুলার আগে গিট বলতে পারবে না ফাইলের ভিতরে কি আছে কিংবা গিট এ জমা করা জাবেনা।বা গিট ফাইল্টাকে ট্র্যাক করবে না।স্টেজে তুলার পর আমরা কমিট করবো। 
+git –version
+
+(git instal kora ace kina dekar jonno)
+
+cd Desktop/ 
+
+or 
+
+cd ~/Desktop
+cd [fiel/folder name]/
+cd মানে change directory
+এইটা ব্যাবহার করে এক ফাইল থেকে অন্য ফাইলে যাওয়া হয়।
+
+ 
+(destop e asar jonno destop na asle kaj kora jabe na)
+Taror obossoi ei file jete hobe 
+Cd gitDemo/ eivabe tarpor git in it use kore git k dhorie dite hobe
+Git notun ekta file toiri korbe jeta prothome hidden takbe. Ei file amader kicu korar nai.ekhane sob kicu bola ace git kivabe amder file gulo ke dhorbe kivabe traking korbe.obosso advance jara tara ei filer vitor probesh kore kicu change korte pare.
+
+
+
+তারপর সেটিকে লোকাল রিপজিটরি তে দিবো।এইটা একটা ফাইলের মত চিন্তা করা যেতে পারে।অনেক্টা ক্লাউড এর মত।
+তারপর রিমটে নিয়ে যাব।
+উইন্ডজে কমান্ড লাইন টার্মিনালে গিট বেশ ব্যাবহার করা হয়।
+
+
+Git
+নতুন ফোল্ডার তৈরি করার জন্য mkdir কমান্ড লিখতে হয়।
+ফোল্ডারে প্রবেশ করার জন্য  cd
+ফাইল তৈরি করার জন্য touch কমান্ড
+Raning folder teke ber hoye onno file jauar jonno  ডিরেকাটরিতে যাওয়ার জন্য ../ 
+গিট কে ফাইল ধরিয়ে দেওয়ার জন্য git init
+Commit মানে save করা।
+গিট হাব থেকে /গ্লোবাল থেকে/ক্লাউড থেকে ফাইল লোকালে নিয়ে আসার জন্য
+git clone link(লিঙ্ক গিট হাব এর উপরে থাকবে কোড এ ক্লিক করে লিঙ্ক কপি করে বসাতে হবে)
+কি কি চেঞ্জ করা হয়েছে তার জন্য git status
+
+
+Stage তোলা গিট এর ভাষায় add করা।
+Git add –all/a
+আগের জাগায় যাওয়ার জন্য git reset
+কোন ফোল্ডারে আছি দেখার জন্য pwd
+Git add . কারেন্ট ফোল্ডারে যা কিছু আছে তা স্টেজে তুলবে।
+Git add *  jeta delt hoye gese seta cara sob kicu k stag e tule dei.
+Git add * .txt (txt extension joto file ace tar jonno onno filer er khhetreu ekoi niom)
+Stage theke local repository te neya(git er vasai bola hoi commit kora)
+
+Git e commit korte hole janate hobe ami k
+Amar user id email password dite hobe
+
+Git config –global user.email “email”
+Git config –global user.name “user name” [double quation er vitore dite hobe]
+Than git commit
+Ekta window asbe mullot text editor name vim
+I press korte hbe nice insert lekha asbe
+Kicu ekta like esc press korte hobe tahole insert lekha ta cole jabe
+Taror colon die x capte hobe
+Than enter kaj ses.
+Commit dekar jonno 
+
+File change anle abar git add korte hobe
+git log
+git commit -m “add some lines” eta use korte hoi ek sathe commit massage like deuar jonno tahole r ager moto vim text editor asbe na.
+
+git log --oneline
+ shudhu matro ki commit koreci seita dekar jonno
+git e ki change hoyece ta dekar jonno
+git show [commit id]
+git diss [dl tba rmv korar por change dekar jonno ei command dara deka jabe konta add hoise r konta dlt hoise]
+kintu jodi change stage kore feli tokon git diff command kono kicu show korbe na karon git mone kore jehetu stag kore felci user jane ki change asce git dorkar nai notun kore jananor
+tarporeu jodi ei command dara amra change dekte cai tahole use korte hobe
+git diff –staged  [obossoi stage obosthai deka jabe commit korar por dekabe na]
+another command
+git diff [commit id][commit id] dile duitar vitor ki change asce deka jabe
+file rmv korar jonno
+git rm file name  [sob jaga teke rmv kore dibe]
+git reset HEAD file name for jekono track file untrack korar jonno
+
+
+version control
+jodi ekta version teke arekta version e jete cai tahole 
+git checkout commit id fileName
+
+github
+new repository creat korte hobe .kaj korte hobe locale tarpor setia github e joma kore rakte hobe.
+Er jonno github er repositoryta clone korte hobe link copy kore
+Git clone link
