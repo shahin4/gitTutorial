@@ -104,6 +104,7 @@ use korte hobe push korar jonno ei command die enter caple hoito notun ekta wind
 github e gie fresh dile deka jabe amader repository te file ta cole asce....its amazing
 
 
+<<<<<<< HEAD
 
 
 
@@ -121,3 +122,6 @@ Branc toiri korar jonno
  git branch branchName 
 eta branch teke arekta branc e jauar somoi 
 git checkout branchName command use korte hobe
+=======
+eita second branch for testing
+>>>>>>> branch2
