@@ -102,3 +102,22 @@ sob kicu stage and commit korar por
  git push -u origin main
 use korte hobe push korar jonno ei command die enter caple hoito notun ekta window asbe github e sign korar jonno noito terminal ei user name and password deuar option asbe sockicu deuar por 
 github e gie fresh dile deka jabe amader repository te file ta cole asce....its amazing
+
+
+
+
+
+
+
+
+
+
+
+Branc 
+Branc hocce amader main place o.hote pare amia mar app e kicu change anbo kintu amar app to bajare running ace change anle tader problem hobe tai alada branc kore change anbo ete kore amr main branc e kono effect porbe na. ebong pore duita branc k merg kore dibo 
+Kon branch e aci dekar jonno git branch command likte hobe
+Amroa caile onkgulo branc toiri korte pari
+Branc toiri korar jonno
+ git branch branchName 
+eta branch teke arekta branc e jauar somoi 
+git checkout branchName command use korte hobe
