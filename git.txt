@@ -134,3 +134,15 @@ merg korar somoi auto merge failed asbe karon terminal bujccena kototuku ongsho 
 Vs code dara easy te conflict kora jay
 Git checkout -b branchName [ek sathe branch creat kore sei branch jump kora jai ei command die]
 
+
+
+
+
+
+Fork 
+ Muloto git er kono kaj na eita git hub er
+Jodi onner project e kaj korte cai onner project amar repositorite clone krote cai tahole ei system ta k fork bole.
+[terminal teke vs code open korar jonno  code . command use korte hobe]
+
+Learn git fork pull and git ignore more
+
