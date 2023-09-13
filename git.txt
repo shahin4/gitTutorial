@@ -125,3 +125,12 @@ git checkout branchName command use korte hobe
 =======
 eita second branch for testing
 >>>>>>> branch2
+
+
+
+merge and merge conflict
+master/main branch er sathe onno branch add korte hole merge korte hobe ei jonno age main branch e jete hobe
+merg korar somoi auto merge failed asbe karon terminal bujccena kototuku ongsho merge korbe tai amader manuali bole dite hob kon ongsho amra mere korbo eita k conflict bole.
+Vs code dara easy te conflict kora jay
+Git checkout -b branchName [ek sathe branch creat kore sei branch jump kora jai ei command die]
+
